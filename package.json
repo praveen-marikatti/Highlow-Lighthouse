@@ -8,7 +8,7 @@
   "main": "server.jsr",
   "scripts": {
     "start": "webpack && http-server -c-1",
-    "lh": "lighthouse-ci"
+    "lh": "lighthousebot"
   },
   "dependencies": {
     "lodash": "^4.7.0",
@@ -36,7 +36,4 @@
     "node",
     "glitch"
   ]
-}
-"scripts": {
-  "lh": "lighthousebot"
 }
