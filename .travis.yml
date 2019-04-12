@@ -9,3 +9,6 @@ script:
  - webpack
  after_success:
    - firebase deploy --token $FIREBASE_TOKEN --non-interactive
+after_success:
+ - firebase deploy --token $FIREBASE_TOKEN --non-interactive
+ - npm run lh -- https://pwa.qa.highlow.net/
